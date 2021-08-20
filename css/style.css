@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 600px;
+    margin: 0 auto;  
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.score {
+    height: 150px;
+    width: 100%;
+    background: rgba(255, 192, 203, 0.8);
+    text-align: center;
+    font-size: 25px;
+}
+
+.score h2 {
+    vertical-align: middle;
+    padding-top: 50px;
+}
+
+.field {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    display: block;
+}
+
+.button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: rgb(121, 121, 121);
+}
